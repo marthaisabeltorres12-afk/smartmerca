@@ -60,7 +60,7 @@ const AdminDashboard = () => {
         <div className="table-card">
           <div className="table-header"><h2>📋 Productos recientes</h2></div>
           <table className="dark-table">
-            <thead><tr><th>Nombre</th><th>Categoría</th><th>Precio</th><th>Stock</th></tr></thead>
+            <thead><tr><th> Nombre </th><th>Categoría</th><th>Precio</th><th>Stock</th></tr></thead>
             <tbody>
               {recentProducts.map(p => (
                 <tr key={p.id}>
