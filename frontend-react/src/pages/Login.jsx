@@ -38,7 +38,7 @@ const Login = () => {
         </form>
         <div className="auth-links">
           <Link to="/forgot-password">¿Olvidaste tu contraseña?</Link>
-          <span>¿No tienes cuenta? <Link to="/Register">Regístrate</Link></span>
+          <span>¿No tienes cuenta? <Link to="/Register">Regístrar</Link></span>
         </div>
       </div>
     </div>
