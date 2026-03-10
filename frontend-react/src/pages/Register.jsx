@@ -22,7 +22,7 @@ const Register = () => {
     <div className="auth-container">
       <div className="auth-card">
         <h1> SmartMerca</h1>
-        <h2>Registro</h2>
+        <h2>Registros</h2>
         {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Nombre completo" value={form.name}
