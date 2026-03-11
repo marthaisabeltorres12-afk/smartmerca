@@ -82,7 +82,7 @@ const ManageProducts = () => {
         <h1 className="page-title">📦 Gestión de Productos</h1>
         {alert && <div className={`alert alert-${alert.type === 'error' ? 'error' : 'success'}`}>{alert.msg}</div>}
         <div className="search-bar">
-          <input className="dark-input" placeholder="🔍 Buscar por nombre, categoría o código..."
+          <input className="dark-input" placeholder="Buscar por nombre, categoría o código..."
             value={search} onChange={e => setSearch(e.target.value)} />
           <button className="btn btn-primary" onClick={openAdd}>+ Nuevo Producto</button>
         </div>

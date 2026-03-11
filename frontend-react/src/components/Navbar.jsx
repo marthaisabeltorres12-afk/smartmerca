@@ -42,8 +42,8 @@ const Navbar = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        🛒 SmartMerca
-        <span>Sistema de Inventario</span>
+         SmartMerca
+        <span>Control de Inventario </span>
       </div>
       <nav className="sidebar-nav">
         {links.map(l => (
